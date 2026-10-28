@@ -1,0 +1,12 @@
+# Ignoruj foldery budowania wszystkich modułów
+**/build/
+**/.gradle/
+
+# Ignoruj zasoby graficzne i binarne, które zapychają tokeny
+**/src/main/res/drawable*/
+**/src/main/res/mipmap*/
+**/.idea/
+
+# Opcjonalnie: jeśli pracujesz nad konkretnym modułem (np. :feature:login), 
+# możesz tymczasowo wykluczyć inne gigantyczne moduły:
+/heavy-legacy-module/
